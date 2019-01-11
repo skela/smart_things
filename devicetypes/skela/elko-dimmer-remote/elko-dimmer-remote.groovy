@@ -13,7 +13,7 @@
  */
 
 metadata {
-    definition (name: "Elko Dimmer Remote", namespace: "alek@davincium.com", author: "Alek Slater") {
+    definition (name: "Elko Dimmer Remote", namespace: "skela", author: "Alek Slater") {
         capability "Actuator"                
         capability "Momentary"
         //capability "Switch Level"

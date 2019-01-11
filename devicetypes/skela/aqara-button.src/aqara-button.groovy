@@ -14,7 +14,7 @@
  *
  */
 metadata {
-	definition (name: "Aqara Button", namespace: "alek@davincium.com", author: "Alek Slater") {
+	definition (name: "Aqara Button", namespace: "skela", author: "Alek Slater") {
 		capability "Actuator"
         capability "Momentary"
         capability "Button"
