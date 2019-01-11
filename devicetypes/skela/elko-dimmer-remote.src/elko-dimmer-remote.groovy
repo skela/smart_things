@@ -65,6 +65,7 @@ def parse(String description)
     log.debug "description is $description"
     if (description=="catchall: 0104 0006 01 01 0140 00 1499 01 00 0000 02 00 ")
     {
+    	push()
         //def ev = createEvent(name: "button", value: "pushed", data: [])
         //sendEvent(ev)
         //return ev
