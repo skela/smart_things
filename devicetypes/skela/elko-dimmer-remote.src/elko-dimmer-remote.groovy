@@ -16,7 +16,7 @@ metadata {
     definition (name: "Elko Dimmer Remote", namespace: "skela", author: "Alek Slater") {
         capability "Actuator"                
         capability "Momentary"
-        //capability "Switch Level"
+        capability "Switch Level"
         capability "Button"
         //capability "Light"
 	
