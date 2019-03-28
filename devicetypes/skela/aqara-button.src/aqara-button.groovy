@@ -69,7 +69,7 @@ def off() {
 def parse(String description) 
 {
     log.debug "description is $description"
-    if (description=="on/off: 1")
+    if (description.endsWith("value: 0010000001"))
     {
     	push()
         //def ev = createEvent(name: "button", value: "pushed", data: [])
